@@ -16,5 +16,35 @@
     "function": "test_main_ticket",
     "timeout": 10,
     "points": 1
+  },
+  {
+    "name": "test_lottery_create_ticket",
+    "function": "test_create_ticket_success",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_money_deposit",
+    "function": "test_transfer_money_deposit",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_numeric_input_read_int",
+    "function": "test_read_int_valid_input",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_menu_select_option",
+    "function": "test_select_menu_valid_input",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_person_properties",
+    "function": "test_person_properties",
+    "timeout": 10,
+    "points": 1
   }
 ]

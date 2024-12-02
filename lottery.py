@@ -10,6 +10,9 @@ def create_ticket(person):
         person.balance -= 2
         ticket = Ticket(0, list())
         select_numbers(ticket)
+        if not hasattr(person, 'tickets'):
+            person.tickets = []
+        person.tickets.append(ticket)
         print_ticket(ticket)
         print(f'Dein neues Guthaben: {person.balance:.2f}')
     else:
